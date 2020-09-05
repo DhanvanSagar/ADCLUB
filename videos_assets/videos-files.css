@@ -1,0 +1,231 @@
+body
+{
+  font-family: 'Poppins', sans-serif;
+  
+}
+.thumbnail
+{
+    Width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    Height: 176px;
+
+
+}
+main{
+    background-color: #f2fff6;
+    
+}
+
+#cards
+{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-shadow: 5px 8px 12px 5px rgba(0,0,0,.1);
+    border-radius: 20px;
+    border: 1px solid rgba(0,168,255,.3);
+
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 350px;
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 20px;
+    margin-top:20px ;
+    background-color: white;
+}
+
+    /* margin-left:95px ;
+    
+    margin-bottom:30px ; */
+
+
+.grid
+{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+.text-section
+{
+    Padding: 10px 24px;
+    text-overflow: ellipsis;
+
+  overflow : hidden;
+  margin: 0%;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+#cards h3
+{
+    font-size: 18px;
+    text-align: left;
+    Margin: 0;
+    padding :0;
+    font-weight: 600 ;
+    font-family: Raleway,sans-serif;
+    word-break: break-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.author-container
+{
+    padding-top: 4px;
+    display: inline;
+}
+.author
+{
+    color: rgb(100, 0, 200);
+    font-size: 14px;
+    font-style: Italic;
+    font-weight: 400;
+    display: inline;
+    font-family: Raleway,sans-serif;
+  color: rgba(255, 0, 0, 1);
+}
+.date
+{
+    display: inline;
+    color: rgba(0,0,0,0.7);
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Raleway,sans-serif;
+}
+.text-section p
+{
+    Font-Size: 22px;
+    Font-weight: 400;
+    line-height: 1.2;
+    color: rgba(0,0,0,.6);
+    Margin: 24px 0;
+    text-overflow: ellipsis;
+    font-family: Raleway,sans-serif;
+    height: 100%;
+    word-break: keep-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-bottom:8px ;
+}
+.grid a
+{
+    text-decoration: none;
+   width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 479px)
+{
+    .grid a
+    {
+       width: inherit;
+    }
+    .grid
+    {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .thumbnail
+    {
+        width:241px;
+        align-items: center;
+    }
+    .text-section p
+    {
+      font-size: 14px;
+    }
+    .author-container
+    {
+      font-size: 18px;
+    }
+}
+
+/******************************************ABOVE IS COPY OF VIDEOS.CSS**********************   ************************************************************/
+/****************  ********************************************************************************************************   ********************************/
+/****************  ************************  ****************************************************************************************************************/
+/****************       
+/***************    ************************************************************************************  *****************************************************/
+/******************************************************************************************************* ************      *************************************/
+/****************  **********************************************  ****************   *********** ** *********** **** **********************************************/
+/********************************************************************************************************************************************************/
+/****************** ***************************   **********************************************************     *************************************************/
+/********************************************************************************************************  *********************************************/
+
+.vid
+{
+  display: inline-flex;
+  width: inherit;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5% 30% 5% 30%;
+
+}
+.utube
+{
+    display: inline;
+   
+}
+
+
+.text-section h3
+{
+  font-size:50px;
+  margin: 2px;
+}
+.author-container .author
+{
+  font-size: 24px;
+}
+.author-container .date
+{
+  font-size: 24px;
+}
+.para
+{
+  font-size: 24px;
+}
+@media screen and (max-width: 479px)
+{
+  .text-section h3
+{
+  font-size:24px;
+  margin: 2px;
+}
+.author-container .author
+{
+  font-size: 12px;
+}
+.author-container .date
+{
+  font-size: 12px;
+}
+  .utube
+  {
+    width: 200%;
+    height: 175px;
+    
+  }
+
+}
+main
+{
+  overflow: auto;
+}
+
