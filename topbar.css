@@ -1,0 +1,143 @@
+body
+{
+   
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.logo{
+
+    width: 70px;
+    height: 40px;
+}
+.logo:hover
+{
+
+    -webkit-filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.5));
+    filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.5));
+}
+.menu-item
+{
+    text-decoration: none;
+    color: #B3B3Bf;
+    z-index: 50;
+}
+.menu-item:hover
+{
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: bolder;
+    transform: scale(1.1);
+}
+.event-reg
+{
+    background-color: #000000;
+    color: #FFFFFF;
+    
+    border-radius: 15px;
+    width: 130px;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    
+    
+} 
+.event-reg:hover
+{
+    background-color:rgba(0, 0, 0, 0.5);
+}
+.event-reg 
+{
+    text-decoration: none;
+    color: white;
+}
+.event-reg a:hover
+{
+    background-color: blue;
+}
+
+.menu-wrapper 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 350px;
+    
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    
+   
+}
+
+.dropdown-wrapper
+{
+    display: none;
+    z-index: 999999;
+}
+
+@media screen and (max-width: 479px)
+{
+    .event-reg
+    {
+        display: none;
+        font-size: 0.5rem;
+    }
+    .logo
+    {
+        width: 50px;
+        height: 40px;
+    }
+    .menu-item
+    {
+        display: none;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+   
+    .menu-wrapper
+    {
+        display: none;
+    }
+    .dropdown
+    {
+        display: none;
+    }
+
+    .dropdown-wrapper {
+        display: inline-block;
+        position: relative;
+    }
+    
+    .dropdown-wrapper:hover .dropdown {
+        display: block;
+    }
+    
+    .dropdown {
+        width: 130px;
+        border-top: 2px solid rgb(170, 210, 54);
+        padding: 20px;
+        position: absolute;
+        right: 15px;
+        z-index: 2222;
+        background-color: white;
+        box-shadow: 0 2px 5px #ccc;
+    }
+    
+    .dropdown a {
+        text-decoration: none;
+        display: block;
+        border-bottom: 1px solid #ccc;
+        padding: 4px;
+        cursor: pointer;
+    }
+    
+    .dropdown a:last-of-type {
+        border: 0;
+    }
+}

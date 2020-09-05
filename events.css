@@ -1,0 +1,131 @@
+.thumbnail
+{
+    Width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    Height: 176px;
+
+
+}
+main{
+    background-color: #f2fff6;
+}
+#cards
+{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    box-shadow: 5px 8px 12px 5px rgba(0,0,0,.1);
+    border-radius: 20px;
+    border: 1px solid rgba(0,168,255,.3);
+
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 350px;
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 20px;
+    margin-top:20px ;
+    background-color: white;
+    margin-left: auto;
+    margin-right:auto ;
+}
+
+    /* margin-left:95px ;
+    
+    margin-bottom:30px ; */
+
+
+#cards:hover
+{
+    transform: scale(1.1);
+    cursor: not-allowed;
+}
+.grid
+{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+.text-section
+{
+    Padding: 10px 24px;
+    text-overflow: ellipsis;
+
+  overflow : hidden;
+}
+#cards h3
+{
+    font-size: 18px;
+    text-align: left;
+    Margin: 0;
+    padding :0;
+    font-weight: 600 ;
+    font-family: Raleway,sans-serif;
+    word-break: break-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.author-container
+{
+    padding-top: 4px;
+    display: inline;
+}
+.author
+{
+    color: rgb(100, 0, 200);
+    font-size: 14px;
+    font-style: Italic;
+    font-weight: 400;
+    display: inline;
+    font-family: Raleway,sans-serif;
+  color: rgba(255, 0, 0, 1);
+}
+.date
+{
+    display: inline;
+    color: rgba(0,0,0,0.7);
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Raleway,sans-serif;
+}
+.text-section p
+{
+    Font-Size: 14px;
+    Font-weight: 400;
+    line-height: 1.2;
+    color: rgba(0,0,0,.6);
+    Margin: 4px 0;
+    text-overflow: ellipsis;
+    font-family: Raleway,sans-serif;
+    height: 100%;
+    word-break: keep-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-bottom:8px ;
+}
+
+@media screen and (max-width: 479px)
+{
+    #cards
+    {
+        width: 84%;
+    }
+    .grid
+    {
+      margin-left: auto;
+    }
+}

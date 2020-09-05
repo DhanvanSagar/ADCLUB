@@ -1,0 +1,42 @@
+body
+{
+    overflow: scroll;
+}
+.contact
+{
+    display: flex;
+    justify-content: center;
+   
+    flex-direction: row;
+    align-items: center;
+}
+.contact::before
+{
+    background-color: pink;
+}
+.contact img
+{
+    width: 120px;
+}
+.hh
+{
+    text-align: center;
+}
+
+body
+{
+    
+    position: static;
+    
+}
+footer
+{
+    position: static;
+}
+@media screen and width(479px)
+{
+    .contact img
+    {
+        width: 80px;
+    } 
+}

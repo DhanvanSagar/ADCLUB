@@ -1,0 +1,78 @@
+main h1
+{
+    text-align: center;
+    font-size: 34px;
+    opacity: 0.9;
+    transform: translateY(-50px);
+    
+}
+main p
+{
+    opacity: 0.5;
+}
+main h2
+{
+    opacity: 0.8;
+}
+article
+{
+    background-color: #f2fff6;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius:50px ;
+    margin-bottom:30px ;
+    box-shadow:5px 5px 20px rgba(0, 0, 0, 0.5);
+    
+}
+main
+{
+    padding: 20px;
+}
+article:hover
+{
+    transform: scale(0.9);
+    opacity: 0.5;
+}
+main
+{
+    
+    position: relative;
+   
+}
+
+@media screen and (max-width: 479px)
+{
+    main h1
+    {
+        text-align: center;
+        font-size: 24px;
+        opacity: 0.9;
+        transform: translateY(-50px);
+        display: none;
+    }
+    html{
+        overflow: scroll;
+    }
+    main h2
+    {
+        font-size: 16px;
+    }
+    main p
+    {
+        font-size:12px ;
+    }
+    body{
+        overflow-y: scroll;
+    }
+    article
+{
+    background-color: #f2fff6;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius:50px ;
+    margin-bottom:10px ;
+    box-shadow:2px 2px 10px rgba(0, 0, 0, 0.5);
+    
+}
+    
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AD CLUB</title>
+    <script src="https://kit.fontawesome.com/9a2bef7e70.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./topbar.css">
+    <link rel="stylesheet" href="./videos.css" >
+    
+    <link rel="stylesheet" href="./footer.css">
+</head>
+<body>
+    <header >
+        <nav>
+            <a href="./index.html"><img class="logo" src="./ad logo.png" alt=""></a>
+            <div class="menu-wrapper">
+                <a class="menu-item" href="./index.html">Home</a>
+                <a class="menu-item" href="./aboutus.html">About Us</a>
+                <a class="menu-item" href="./videos.html">Videos</a>
+                <a class="menu-item" href="./events.html">Events</a>
+                <a class="menu-item" href="./contact.html">Contact</a>
+             </div>
+             
+             <div>
+                 <div class="dropdown-wrapper">
+                    <i style="color: black;" class="fas fa-bars"></i>
+ 
+                     <div class="dropdown">
+                         <a class="menu-item" href="./index.html">Home</a>
+                         <a class="menu-item" href="./aboutus.html">About Us</a>
+                         <a class="menu-item" href="./videos.html">Videos</a>
+                         <a class="menu-item" href="./events.html">Events</a>
+                         <a class="menu-item" href="./contact.html">Contact</a>
+                         <a class="menu-item" href="./register.html">Register</a>
+                     </div>
+                 </div>
+            
+            <a class="event-reg" href="./register.html">Event Registration</a>
+        </nav>
+    </header>
+    <main >
+        <script src="https://unpkg.com/tripetto-runner-foundation"></script>
+        <script src="https://unpkg.com/tripetto-runner-chat"></script>
+        <script src="https://unpkg.com/tripetto-services"></script>
+        <script>
+        var tripetto = TripettoServices.init({ token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiMGFKTmM1TXBMZTk0R3FuV2d5MVh6QlBNb2d6anJQa2FxZE02UUZ5ZHJKZz0iLCJkZWZpbml0aW9uIjoiYXQ5UXNnaFRWZnFNT3IwRzRVdEk0MWxaeDY2K3Q3TTdWZEhUZVhMM0Rkbz0iLCJ0eXBlIjoiY29sbGVjdCJ9.gZtiJYT8tUL_62vpvT082iS9CItMrfYA7NdYAAZDQXE" });
+        
+        TripettoChat.run({
+            element: document.body, /* Or supply your own element here */
+            definition: tripetto.definition,
+            styles: tripetto.styles,
+            l10n: tripetto.l10n,
+            locale: tripetto.locale,
+            translations: tripetto.translations,
+            attachments: tripetto.attachments,
+            onSubmit: tripetto.onSubmit
+        });
+        </script>
+</script>
+</script>
+    </main>
+   <footer> 
+       <p class="follow">Follow us on</p>
+       <div class="follow-us">
+        <a href="https://www.instagram.com/adclub_nist/"><img src="https://www.freepnglogos.com/uploads/pics-photos-instagram-logo-png-4.png" alt=""></a>
+        <a href="https://www.facebook.com/NistAdClub/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/768px-Facebook_Logo_%282019%29.png" alt=""></a>
+        <a href="https://twitter.com/ad_nist?s=08"><img src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-2-1.png" alt=""></a>
+       </div>>
+       <div class="copy">
+            <span>
+               <i class="far fa-copyright"></i>
+               <a href="https://www.linkedin.com/in/dhanvansagar/"><p class="copyrights">Dhanvan Sagar</p></a>
+        
+            </span> 
+            
+       </div>
+   </footer>
+</body>
+</html>
