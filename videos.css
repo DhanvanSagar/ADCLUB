@@ -1,3 +1,7 @@
+body
+{
+    box-sizing: content-box;
+}
 .thumbnail
 {
     Width: 100%;
@@ -53,6 +57,10 @@ main{
     margin-right: auto;
 
     
+}
+.grid a
+{
+    display: none;
 }
 .text-section
 {
@@ -127,6 +135,7 @@ main{
     .grid a
     {
        width: inherit;
+       margin: auto;
     }
     .grid
     {
@@ -135,8 +144,10 @@ main{
     }
     .thumbnail
     {
+
         width:241px;
         align-items: center;
+        width: 100%;
     }
     .date
     {
